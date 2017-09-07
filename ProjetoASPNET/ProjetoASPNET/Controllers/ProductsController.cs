@@ -36,6 +36,7 @@ namespace ProjetoASPNET.Controllers
         }
 
         // PUT: api/Products/5
+        [Authorize(Users = "ADMIN")]
         [ResponseType(typeof(void))]
         public IHttpActionResult PutProduct(int id, Product product)
         {
@@ -71,6 +72,7 @@ namespace ProjetoASPNET.Controllers
         }
 
         // POST: api/Products
+        [Authorize(Roles = "ADMIN")]
         [ResponseType(typeof(Product))]
         public IHttpActionResult PostProduct(Product product)
         {
@@ -86,6 +88,7 @@ namespace ProjetoASPNET.Controllers
         }
 
         // DELETE: api/Products/5
+        [Authorize(Roles = "ADMIN")]
         [ResponseType(typeof(Product))]
         public IHttpActionResult DeleteProduct(int id)
         {

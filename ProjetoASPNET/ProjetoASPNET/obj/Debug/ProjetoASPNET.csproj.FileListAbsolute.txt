@@ -296,3 +296,4 @@ C:\Users\rodrigo\Documents\Visual Studio 2017\Projects\Projeto\ProjetoASPNetRest
 C:\Users\rodrigo\Documents\Visual Studio 2017\Projects\Projeto\ProjetoASPNetRest\ProjetoASPNET\ProjetoASPNET\obj\Debug\ProjetoASPNET.pdb
 C:\Users\rodrigo\Documents\Visual Studio 2017\Projects\Projeto\ProjetoASPNetRest\ProjetoASPNET\ProjetoASPNET\obj\Debug\ProjetoASPNET.Migrations.AddProducts.resources
 C:\Users\rodrigo\Documents\Visual Studio 2017\Projects\Projeto\ProjetoASPNetRest\ProjetoASPNET\ProjetoASPNET\obj\Debug\ProjetoASPNET.csproj.GenerateResource.Cache
+C:\Users\rodrigo\Documents\Visual Studio 2017\Projects\Projeto\ProjetoASPNetRest\ProjetoASPNET\ProjetoASPNET\obj\Debug\ProjetoASPNET.Migrations.AddOrderAndOrderItem.resources
