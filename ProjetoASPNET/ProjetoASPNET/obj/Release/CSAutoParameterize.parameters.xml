@@ -1,9 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection A Cadeia de Conexão usada em web.config pelo aplicativo para acessar o banco de dados." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-ProjetoASPNET-20170905051150.mdf;Initial Catalog=aspnet-ProjetoASPNET-20170905051150;Integrated Security=True" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\rodrigo\\Documents\\Visual\ Studio\ 2017\\Projects\\Projeto\\ProjetoASPNET\\ProjetoASPNET\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\rodrigo\\Documents\\Visual\ Studio\ 2017\\Projects\\Projeto\\ProjetoASPNetRest\\ProjetoASPNET\\ProjetoASPNET\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
   </parameter>
   <parameter name="ProjetoASPNETContext-Web.config Connection String" description="ProjetoASPNETContext A Cadeia de Conexão usada em web.config pelo aplicativo para acessar o banco de dados." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=ProjetoASPNETContext-20170905225755; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|ProjetoASPNETContext-20170905225755.mdf" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\rodrigo\\Documents\\Visual\ Studio\ 2017\\Projects\\Projeto\\ProjetoASPNET\\ProjetoASPNET\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ProjetoASPNETContext']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\rodrigo\\Documents\\Visual\ Studio\ 2017\\Projects\\Projeto\\ProjetoASPNetRest\\ProjetoASPNET\\ProjetoASPNET\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ProjetoASPNETContext']/@connectionString" />
+  </parameter>
+  <parameter name="ProjetoASPNETContext_DatabasePublish-Web.config Connection String" description="ProjetoASPNETContext_DatabasePublish A Cadeia de Conexão usada em web.config pelo aplicativo para acessar o banco de dados." defaultValue="ProjetoASPNETContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\rodrigo\\Documents\\Visual\ Studio\ 2017\\Projects\\Projeto\\ProjetoASPNetRest\\ProjetoASPNET\\ProjetoASPNET\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ProjetoASPNETContext_DatabasePublish']/@connectionString" />
   </parameter>
 </parameters>
